@@ -1,1 +1,1 @@
-Change the klog_output file's read directory to your PC's name
+Change the klog files' read/write directory to your PC's name
