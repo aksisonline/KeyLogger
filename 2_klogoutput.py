@@ -1,7 +1,7 @@
 def process_input(input_sequence):
     return [i.strip("'") for i in input_sequence.split(' ')]
 
-input_file_path = 'C:/Users/abhir/output'
+input_file_path = 'C:/Users/<type_your_pc_name>/output'
 
 with open(input_file_path, 'r') as input_file:
     input_sequence = input_file.read()
