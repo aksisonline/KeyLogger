@@ -1,3 +1,5 @@
-input_file_path = 'C:/Users/<type_your_pc_name>/output'
+import os
+
+input_file_path = os.path.join(os.getcwd(), 'output')
 f = open(input_file_path,'w')
 f.close()
